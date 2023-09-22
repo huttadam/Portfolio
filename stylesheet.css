@@ -17,7 +17,7 @@
 }
 
 .nav{
-    min-height: 10vh;
+    height: 10vh;
     background-color: #355952;
     width: 100vw;
     position: fixed;
@@ -30,48 +30,49 @@
     z-index: 1;
 
 }
-footer {
+
+footer{
+    max-height: 10vh;
     bottom: 0;
     left: 0;
+    position: fixed;
+
 }
 
-
 .pageheader {
-    position: fixed;
+    position: relative;
+    height: 20vh;
+    width: 100vh;
+    margin-top: 15vh;
+    margin-left: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* line-height: 200vh; maybe does nothing? */
-    top: 15vh;
-    left: 15vw;
     padding-bottom: 1vh;
     border-radius: 50%;
-
-    /* may change when screen changes */
     width: 70vw;
-    
+
     height: 8vh;
     z-index: 2;
     color: #EAB63E;
     background-color: #355952;
     font-family: Kool Beans;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
-
 
 .Main-BOX {
     position: relative;
-    top:25vh;
+    margin-top:25vh;
+    margin-left: 1vw;
     margin: 2vw ;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     max-height: 80vh;
     max-width: 80vh;
-    /* overflow: hidden; */
-    
+    overflow: hidden;  
 }
-
 
 .blog-post-icon {
     text-align: center;
