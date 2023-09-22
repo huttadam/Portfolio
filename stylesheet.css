@@ -35,19 +35,60 @@ footer {
     left: 0;
 }
 
-.container{
-    position: relative;
+
+.pageheader {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    height: 30vh;
+    /* line-height: 200vh; maybe does nothing? */
+    top: 15vh;
+    left: 15vw;
+    padding-bottom: 1vh;
+    border-radius: 50%;
+
+    /* may change when screen changes */
+    width: 70vw;
+    
+    height: 8vh;
     z-index: 2;
-    top: 35vh;
-    left: 35vw;
-
-
+    color: #EAB63E;
+    background-color: #355952;
+    font-family: Kool Beans;
+    font-size: 2rem;
 }
+
+
+.Main-BOX {
+    position: relative;
+    top:25vh;
+    margin: 2vw ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 80vh;
+    max-width: 80vh;
+    /* overflow: hidden; */
+    
+}
+
+
+.blog-post-icon {
+    text-align: center;
+    border: 5px solid #EAB63E;
+    margin: 1vh;
+    width: 80%; 
+    background-color: #355952;
+    padding: 2vw;
+    color: #EAB63E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
 
 
 
