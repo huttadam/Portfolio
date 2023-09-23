@@ -16,7 +16,7 @@
     z-index: 0;
 }
 
-.nav{
+.common-bar{
     height: 10vh;
     background-color: #355952;
     width: 100vw;
@@ -60,30 +60,118 @@ footer{
     font-size: 1.5rem;
 }
 
+
 .Main-BOX {
     position: relative;
-    margin-top:25vh;
-    margin-left: 1vw;
-    margin: 2vw ;
+    margin-top: 2vh;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    max-height: 80vh;
-    max-width: 80vh;
-    overflow: hidden;  
+    max-height: 60vh;
+    max-width: 80vw;
+    overflow: hidden; 
+    background-color: transparent;
+    height: 70vh;
+    width: 60vw; ;
+
 }
 
 .blog-post-icon {
     text-align: center;
     border: 5px solid #EAB63E;
     margin: 1vh;
-    width: 80%; 
+    width: 80%;
+    max-height: 15%;
     background-color: #355952;
     padding: 2vw;
     color: #EAB63E;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Kool Beans;
+    font-size: 2rem;
 }
+
+
+
+.blog-box-single-page {
+    position: relative;
+    max-height: 100vh;
+
+
+    margin-top: 12vh;
+    margin-left:10vw;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #355952;
+    width: 80vw;
+    height: auto;
+    font-family: Kool Beans;
+    padding: 4vw;
+    border-radius: 5vw;
+    color: #EAB63E;
+
+}
+
+.blog-box-single-page > h1 {
+    margin-top: 1vh;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+    font-size: 10vw;
+
+}
+
+.blog-box-single-page > img {
+    height: auto;
+    position: relative;
+    margin: 2vw;
+    margin-bottom: 4vw;
+    border:#EAB63E solid 2vw
+
+}
+
+.blog-box-single-page > p {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:scroll ;
+    padding: 3vw;
+    margin-bottom: 5vw;
+}
+
+.blog-box-single-page > nav {
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25vw ;
+    height: 15vw ;
+    background-color: #355952;
+    width:auto;
+}
+
+.blog-but{
+    border: #EAB63E solid 1vw;
+    background-color: #355952;
+    padding: 2vw;
+    font-size: 6vw;
+    font-family: Kool Beans;
+    color: #EAB63E;
+    padding: 3vw;
+    border-radius: 6vw;
+}
+
+    
+.blog-but:hover {
+    background-color: #EAB63E;
+    color: #355952;
+    border: #355952 solid 1vw;
+}
+
 
 
 
