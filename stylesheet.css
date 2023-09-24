@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-a {
-    color: #EAB63E;
-    text-decoration: none;
-}
+/* GENERAL STYLING */
 
 #background {
     display: flex;
@@ -27,7 +24,7 @@ a {
     width: 100vw;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size: 3rem;
     color: #EAB63E;
@@ -63,6 +60,28 @@ footer{
     font-size: 3rem;
 }
 
+/* LOGO STYLING */
+#home-icon {
+    position: relative;
+    width: 15vw;
+    height:15vw;
+    margin-right: 26vw;
+}
+
+#burger-menu-icon {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 8vw;
+}
+
+.common-bar > p {
+    margin-left: -15vw;
+
+}
+
+
+
+/* BLOG MAIN PAGE */
 
 .main-blog-box {
     position: relative;
@@ -97,6 +116,7 @@ footer{
 }
 
 
+/* BLOG POST - SINGLE PAGE */
 
 .blog-box-single-page {
     position: relative;
@@ -181,6 +201,55 @@ footer{
     color: #355952;
     border: #355952 solid 1vw;
 }
+
+
+/* HOME PAGE */
+
+.home-intro-box {
+    position: relative;
+    margin-top: 12vh;
+    margin-left:10vw;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Kool Beans;
+    color:#355952
+
+}
+
+.home-intro-box > h1 {
+    font-size: 35vw;
+    text-align: center;
+}
+
+.home-intro-box > a > img {
+    border: #355952 solid 3vw;
+    border-radius: 50vw;
+    width:80vw;
+
+}
+
+.home-intro-box > h2 {
+    text-align: center;
+    font-size: 7vw;
+    justify-content: space-around;
+    margin-top: 3vh;
+    width: 85vw;
+
+}
+
+.home-intro-box > a > img:hover {
+    border: #EAB63E solid 3vw;
+
+}
+
+
+
 
 
 
