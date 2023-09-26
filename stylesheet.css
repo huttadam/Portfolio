@@ -6,7 +6,11 @@
 
 /* GENERAL STYLING */
 
-body {
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     background-color: #e7e7e7;
     background-attachment: fixed;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23faf6e7' fill-opacity='1'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
@@ -27,37 +31,29 @@ body {
 }
 
 #home-icon {
-    position: relative;
     width: 3.5rem;
     height:3.5rem;
     align-items: center;
     margin-top: 1rem;
+    margin-left: 1rem;
+
 
 }
 
 #burger-menu-icon {
     width: 3.5rem;
     height: 3.5rem;
-    align-items: center;
-}
-
-
-.top-bar > p {
-    align-items: center;
-    width: auto;
-    height: auto;
+    margin-right: 1rem;
 
 }
 
 .bottom-bar{
     background-color: #355952;
     display: flex;
-    width: 100%;
-    height: auto;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #EAB63E;
     font-family: Kool Beans;
 
@@ -65,61 +61,22 @@ body {
 
 #logo-box {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    /* flex-grow: 1;  CHECK PURPOSE AFTER MQ*/
 
 }
 
+
 #logo-box > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 1rem;
 }
 
 #copyright {
-    margin-top: 0.5rem;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-/* .bottom-bar{
-    position: fixed;
-    background-color: #355952;
-    bottom: 0;
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
-    font-size: 3rem;
+    font-size: 0.75rem;
     color: #EAB63E;
-    font-family: Kool Beans;
-
-} */
-
-.bottom-bar > a {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-
-}
-
-.bottom-bar > a > img {
-    width: 3.5rem;
-    height: 3.5rem;
-}
-
-#copyright {
-    font-size: 4vw;
-    color: #EAB63E;
+    padding-bottom: 0.5rem;
 }
 
 /* LOGO STYLING */
@@ -129,176 +86,162 @@ body {
 
 /* BLOG MAIN PAGE */
 
-#main-blog-header {
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #355952;
-    font-family: Kool Beans;
-    font-size: 3rem;
-}
-
 #main-blog-box {
-    width: 100%;
-    height: 65vh;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
-    padding: 2.5rem;
+    font-family: Kool Beans;
+    margin-bottom: 2rem;
+}
 
+#main-blog-box > #blog-box-head-text {
+    color: #355952;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    height: fit-content;
 
 }
 
 .blog-post-icon {
-    width: 100%;
+    width: 80%;
+    padding:0.5rem;
+    margin: 0.8rem 0;
     text-align: center;
-    border: 5px solid #EAB63E;
+    border: 0.4rem solid #EAB63E;
+    border-radius: 2rem; ;
     background-color: #355952;
     color: #EAB63E;
-    font-family: Kool Beans;
-    font-size: 2rem;
-    justify-content: space-between;
-    padding: 0.5rem;
+    font-size: 1.5rem;
+    justify-content:space-between;
+ 
 }
+
+
 
 
 /* BLOG POST - SINGLE PAGE */
 
 .blog-box-single-page {
-    position: relative;
-    margin-top: 12vh;
-    margin-left:10vw;
-    margin-bottom: 15vh;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #355952;
-    width: 80vw;
+    width: auto;
     height: auto;
     font-family: Kool Beans;
-    padding: 4vw;
-    border-radius: 5vw;
+    border-radius: 1rem;
     color: #EAB63E;
-    min-height: 40vh;
-    max-height: 100vh;
+    margin: 1rem;
+    padding:1rem;
+
 }
-
-
-
 .blog-box-single-page > h1 {
-    margin-top: 1vh;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 1vh;
-    font-size: 10vw;
-
+    margin-bottom: 0.1rem;
+    font-size: 2.5rem;
 }
-
 .blog-box-single-page > img {
-    height: auto;
-    position: relative;
-    margin: 2vw;
-    margin-bottom: 4vw;
+    margin:1rem;
     border:#EAB63E solid 2vw
-
 }
-
 .blog-box-single-page > h2 {
-    height: auto;
-    position: relative;
-    font-size: 8vw;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
-
 .blog-box-single-page > p {
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     padding: 3vw;
     margin-bottom: 5vw;
-    height: 22vh ;
+    height: 17rem;
 }
-
-.blog-box-single-page > nav {
-    position: relative;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 25vw ;
-    height: 15vw ;
-    background-color: #355952;
-    width:auto;
-}
-
 .blog-but{
-    border: #EAB63E solid 1vw;
-    background-color: #355952;
-    padding: 2vw;
-    font-size: 6vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
     font-family: Kool Beans;
-    color: #EAB63E;
-    padding: 3vw;
-    border-radius: 6vw;
-}
 
+}
+.blog-but > a {
+    border: #EAB63E solid 0.3rem;
+    border-radius: 3rem;
+    padding: 1rem;
+    height: 5rem;
+    width: 9rem; ;
+
+}
     
-.blog-but:hover {
+#blog-but-hov:hover {
     background-color: #EAB63E;
     color: #355952;
-    border: #355952 solid 1vw;
+    border: #355952 solid 0.3rem
+}
+
+.blog-post-icon:hover{
+    background-color: #EAB63E;
+    border: #355952 solid 0.4rem;
+    color: #355952;
+
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
 }
 
 
 /* HOME PAGE */
 
 .home-intro-box {
-    position: relative;
     margin: auto;
     display: flex;
     flex-direction: column;
-
+    text-align: center;
     align-items: center;
-    justify-content: flex-start;
+    /* justify-content: center; CHECK AFTER MQ */
     font-family: Kool Beans;
     color:#355952
 
 }
 
 .home-intro-box > h1 {
-    font-size: 35vw;
-    text-align: center;
+    font-size: 4rem;
+
 }
 
 .home-intro-box > a > img {
-    border: #355952 solid 3vw;
-    border-radius: 50vw;
-    width:80vw;
-   
-
+    border: #355952 solid 0.5rem;
+    border-radius: 40vw;
+    width: 60vw;
+    height:auto;
+    margin-bottom: 1.5rem;
 }
 
+
 .home-intro-box > h2 {
-    text-align: center;
-    font-size: 7vw;
-    justify-content: space-around;
-    margin-top: 3vh;
-    width: 85vw;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    width: 80vw; 
+    /* Increased to fit 3rd line on mobile */
 
 
 }
 
 .home-intro-box > a > img:hover {
-    border: #EAB63E solid 3vw;
+    border: #EAB63E solid 0.5rem;
 
 }
+
+
 
 /* ABOUT PAGE */
 
 #about-pageheader {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,22 +250,21 @@ body {
     height: auto;
     color: #355952;
     font-family: Kool Beans;
-    font-size: 3rem;
-    margin-top: 1.8rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
 }
 
 
 .about-box {
+    display: flex;
     width:auto;
     height: auto;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     align-content: center;
     color: black;
-    z-index: -1;
 }
 
 
@@ -335,12 +277,11 @@ body {
 }
 
 .about-box-items > p, ul {
-    width: 90vw;
-    padding: 4vw;
-    text-align: center;
-    border: #355952 solid 2vw;
+    width: auto;
+    padding: 1.2rem;
+    border: #355952 solid 0.5rem;
     border-radius: 10vw;
-    margin-bottom: 2vh;
+    margin: 0rem 1rem 1rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.8vw;
     background-color: #e7e7e7;
@@ -350,12 +291,11 @@ body {
 
 .about-box-items > ul {
     text-align: left;
-    padding-left: 8vw;
     
 }
 
 .about-box-items > ul > li {
-    margin: 1.5vh;
+    margin: 0.75rem;
 }
 
 
