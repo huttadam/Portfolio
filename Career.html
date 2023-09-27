@@ -8,15 +8,23 @@
 </head>
 
 <body>
-    <header class="top-bar"> 
-        <a href="http://127.0.0.1:5500/home.html"> <img id="home-icon" src="home-icon.svg" alt="home-icon"> </a>
+    <header class="top-bar">
+
+        <a href="http://127.0.0.1:5500/home.html"> <img id="home-icon" src="house1.png" alt="home-icon"> </a>
         <p> &rpar; </p>
-        <img id="burger-menu-icon"src="new-bur-icon.svg" alt="hamburger-menu-icon">
-        <!-- <nav id="burger-pop-out">
-             <nav class="pop-out-icon"></nav>
-            <nav class="pop-out-icon"></nav>
-            <nav class="pop-out-icon"></nav>
-            </nav> -->
+        
+    
+        <ul class="burger-nav-menu">
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="http://127.0.0.1:5500/About.html">About</a></li>
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="http://127.0.0.1:5500/blog.html"> Blogs</a></li>
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="http://127.0.0.1:5500/Career.html">Career</a></li>
+        </ul>
+
+        <img class="burger-menu-icon"src="burger1.png">
+
 
     </header>
 
@@ -28,9 +36,12 @@
             <h1>Overview</h1>
             <div class="career-box-item-inner">
                 <img src = "overview1.jpg" alt="freight"></img>
-                <p>As mentioned in the <a href=About.html><em>About</em></a> page. Ive been abroad for the most part of my professional life. I've tried several different part-time jobs over and holdover jobs over the years but my Id say my background/training would be Freigt Fowarding and English Teaching. Although these jobs are interesting, I would like to work towards joing the IT and Web Industries.<br>
-                Ive also had a keen intrest in computers and used to play a lot of video games while growing up video games. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est culpa voluptatum rem accusantium expedita, neque vitae natus? Nihil voluptatibus temporibus hic repellat mollitia incidunt illum, itaque expedita pariatur reiciendis.</p>
-                <div class = "resume-icon"><a href="AH-CV.pdf"> <img src= pdf-icon.svg alt="pdf-icon"> <p>Please click to Download</p>
+                <p>As mentioned in the <a href=About.html><em>About</em></a> page. Ive been living abroad for the most part of my professional life. I've tried several different part-time jobs over and holdover jobs during this time but my Id say my background/training would be Freigt Fowarding and English Teaching.
+                (CV attached below.) These are the industries I have worked  in, for the longest and consistent amount of time. Although these jobs are interesting,I feel important to challenge myself, learn something new and start to build a career for the future, which is why
+                I've decided to start working towards joing the IT and Web Industries.<br>
+                Ive always had a keen interest in computers and and the technical side of them and looking forward to getting further knowledge on them. 
+                Throughout my career , Ive gained a lot of experience which has helped me devlop a strong work ethic. Im easy-going, willing to listen and happy to work in a team or by myself.</p>
+                <div class = "resume-icon"><a href="AH-CV.pdf"> <img src= "pdf1.png" id = "pdf-pho" alt="pdf-icon"> <p>Please click to Download</p>
                 </a>
                     
                 </div>
@@ -39,7 +50,11 @@
             <h1>Web Development</h1>
             <div class="career-box-item-inner">
                 <img src = "screensOp.jpg" alt="code"></img>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis libero veniam nulla repellendus magnam suscipit, voluptatum in at! Et libero sequi iure, iste accusamus voluptatibus quam nostrum sunt qui?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, laboriosam expedita rem consequatur cum tenetur assumenda perspiciatis ad hic, molestias corrupti similique et nisi sint autem ea, unde odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est culpa voluptatum rem accusantium expedita, neque vitae natus? Nihil voluptatibus temporibus hic repellat mollitia incidunt illum, itaque expedita pariatur reiciendis.</p>
+                <p>My descion to start this journey was made 2 years ago. During this time Ive tried online learning schools and a Foundations course at another bootcamp in Tokyo.
+                    Ive enjoyed this journeu so far but feel Im just getting bits and peices of knowledge and the industry, which led to my decision to enrol in Coder Academy Australia.
+                    Already a few weeks in, I feel like Ive expanded my knowledge base knowlede of HTML/CSS and have learned very standard industry practices like Git and Shell.
+                    I'm also looking forward to expanding on previously learned languages such as JavaScript and Python. Please see below as example of what Ive worked on previously.</p>
+                </p>
                 <div> Add Code wars link or Python Project </div> 
             </div> 
         </main>  
@@ -54,9 +69,30 @@
 
     <footer class="bottom-bar">   
         <div id = "logo-box">  
-            <a href="mailto:huttjamesadam@gmail.com"> <img src="mail-icon-64.svg" alt="email-logo"> </a>
-            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="Linkin-icon-64.svg" alt="linkedin-logo"> </a>
-            <a href="https://github.com/huttadam?tab=repositories"> <img src="git-icon-64.svg" alt="git-logo"> </a>
+            <a href="mailto:huttjamesadam@gmail.com"> <img src="email1.png" alt="email-logo"> </a>
+            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="linked1.png" alt="linkedin-logo"> </a>
+            <a href="https://github.com/huttadam?tab=repositories"> <img src="git1.png" alt="git-logo"> </a>
         </div>
         <p id="copyright"> Adam Hutt 2023©</p>
+    
     </footer>
+    
+    <script>
+    const burgMenuIcon = document.querySelector(".burger-menu-icon");
+    const burgNavMenu = document.querySelector(".burger-nav-menu");
+    
+    burgMenuIcon.addEventListener("click",openMobileScreen)
+    
+    function openMobileScreen(){
+    burgMenuIcon.classList.toggle("active");
+    burgNavMenu.classList.toggle("active");
+    }
+    const aLink = document.querySelectorAll(".burger-a-link");
+    
+    aLink.forEach((n) => n.addEventListener("click", closeMobileScreen));
+    
+    function closeMobileScreen(){
+        burgMenuIcon.classList.remove("active");
+        burgNavMenu.classList.remove("active");
+    }
+    </script>    

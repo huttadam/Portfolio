@@ -6,18 +6,8 @@
     <title>Blog# 5</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
-    <header class="top-bar"> 
-        <a href="http://127.0.0.1:5500/home.html"> <img id="home-icon" src="home-icon.svg" alt="home-icon"> </a>
-        <p> &rpar; </p>
-        <img id="burger-menu-icon"src="new-bur-icon.svg" alt="hamburger-menu-icon">
-        <!-- <nav id="burger-pop-out">
-            <nav class="pop-out-icon"></nav>
-            <nav class="pop-out-icon"></nav>
-            <nav class="pop-out-icon"></nav>
-        </nav> -->
+<body> 
 
-    </header>
 
     <section class="blog-box-single-page">
         <h1> Blog# 5</h1>
@@ -32,18 +22,36 @@
         </nav> 
     </section>
 
-    <footer class="bottom-bar">   
+        <footer class="bottom-bar">   
         <div id = "logo-box">  
-            <a href="mailto:huttjamesadam@gmail.com"> <img src="mail-icon-64.svg" alt="email-logo"> </a>
-            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="Linkin-icon-64.svg" alt="linkedin-logo"> </a>
-            <a href="https://github.com/huttadam?tab=repositories"> <img src="git-icon-64.svg" alt="git-logo"> </a>
+            <a href="mailto:huttjamesadam@gmail.com"> <img src="email1.png" alt="email-logo"> </a>
+            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="linked1.png" alt="linkedin-logo"> </a>
+            <a href="https://github.com/huttadam?tab=repositories"> <img src="git1.png" alt="git-logo"> </a>
         </div>
         <p id="copyright"> Adam Hutt 2023©</p>
+
     </footer>
-   
 
+    <script>
+    const burgMenuIcon = document.querySelector(".burger-menu-icon");
+    const burgNavMenu = document.querySelector(".burger-nav-menu");
 
+    burgMenuIcon.addEventListener("click",openMobileScreen)
 
+    function openMobileScreen(){
+    burgMenuIcon.classList.toggle("active");
+    burgNavMenu.classList.toggle("active");
+    }
+    const aLink = document.querySelectorAll(".burger-a-link");
 
+    aLink.forEach((n) => n.addEventListener("click", closeMobileScreen));
+
+    function closeMobileScreen(){
+        burgMenuIcon.classList.remove("active");
+        burgNavMenu.classList.remove("active");
+    }
+    </script>
+
+     
 </body>
 </html>

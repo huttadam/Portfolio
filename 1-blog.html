@@ -6,21 +6,26 @@
     <title>Blog# 1</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
-    <form id ="background">
-        <header class="top-bar"> 
-            <a href="http://127.0.0.1:5500/home.html"> <img id="home-icon" src="home-icon.svg" alt="home-icon"> </a>
-            <p> &rpar; </p>
-            <img id="burger-menu-icon"src="new-bur-icon.svg" alt="hamburger-menu-icon">
-            <!-- <nav id="burger-pop-out">
-                <nav class="pop-out-icon"></nav>
-                <nav class="pop-out-icon"></nav>
-                <nav class="pop-out-icon"></nav>
-            </nav> -->
+<body> 
+    <header class="top-bar">
 
-        </header>
+        <a href="http://127.0.0.1:5500/home.html"> <img id="home-icon" src="house1.png" alt="home-icon"> </a>
+        <p> &rpar; </p>
+        
+    
+        <ul class="burger-nav-menu">
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="http://127.0.0.1:5500/About.html">About</a></li>
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="http://127.0.0.1:5500/blog.html"> Blogs</a></li>
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="http://127.0.0.1:5500/Career.html">Career</a></li>
+        </ul>
 
-    </form>
+        <img class="burger-menu-icon"src="burger1.png">
+
+
+    </header>
 
     <section class="blog-box-single-page">
         <h1> Blog# 1</h1>
@@ -30,20 +35,41 @@
             Lorem ipsum dolor sit amet consectetur lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores eaque nobis possimus, necessitatibus delectus sint ex? Praesentium, eligendi quae. Inventore amet pariatur iure, impedit earum beatae soluta nemo. Nobis, vero.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui quibusdam praesentium similique itaque ab eveniet. Laborum debitis non quisquam minus nostrum nemo, fuga amet dolores minima at? Blanditiis, nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam suscipit corrupti in sint non rerum reiciendis, omnis exercitationem perferendis, iusto ducimus eaque tempora enim eligendi harum! Odit commodi quo voluptatibus?
         </p>
         <nav class="blog-but">
-            <a href="1-blog.html" id="blog-but-hov" type="button">Previous</button></a>
+            <a href="5-blog.html" id="blog-but-hov" type="button">Previous</button></a>
             <a href="2-blog.html"  id="blog-but-hov" type="button"> Next</button></a> 
         </nav> 
     </section>
 
     <footer class="bottom-bar">   
         <div id = "logo-box">  
-            <a href="mailto:huttjamesadam@gmail.com"> <img src="mail-icon-64.svg" alt="email-logo"> </a>
-            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="Linkin-icon-64.svg" alt="linkedin-logo"> </a>
-            <a href="https://github.com/huttadam?tab=repositories"> <img src="git-icon-64.svg" alt="git-logo"> </a>
+            <a href="mailto:huttjamesadam@gmail.com"> <img src="email1.png" alt="email-logo"> </a>
+            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="linked1.png" alt="linkedin-logo"> </a>
+            <a href="https://github.com/huttadam?tab=repositories"> <img src="git1.png" alt="git-logo"> </a>
         </div>
         <p id="copyright"> Adam Hutt 2023©</p>
+
     </footer>
 
+    <script>
+    const burgMenuIcon = document.querySelector(".burger-menu-icon");
+    const burgNavMenu = document.querySelector(".burger-nav-menu");
 
+    burgMenuIcon.addEventListener("click",openMobileScreen)
+
+    function openMobileScreen(){
+    burgMenuIcon.classList.toggle("active");
+    burgNavMenu.classList.toggle("active");
+    }
+    const aLink = document.querySelectorAll(".burger-a-link");
+
+    aLink.forEach((n) => n.addEventListener("click", closeMobileScreen));
+
+    function closeMobileScreen(){
+        burgMenuIcon.classList.remove("active");
+        burgNavMenu.classList.remove("active");
+    }
+    </script>
+
+     
 </body>
 </html>
