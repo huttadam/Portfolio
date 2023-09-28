@@ -91,7 +91,7 @@ body{
     color: #355952;
     list-style-type: none;
     background-attachment: fixed;
-    background-image: url(background.png)
+    background-image: url(background.png);
 }
 
 .burger-nav-menu.active{
@@ -105,7 +105,6 @@ body{
     height: 10vh;
     width: 100vw;
     border-bottom: 0.5rem solid #355952;
-
 
 }
 .burger-a-link {
@@ -205,22 +204,20 @@ body{
     background-color: #EAB63E;
     border: #355952 solid 0.3rem;
     color: #355952;
-
 }
+
+
 a:visited {
     color: inherit;
-    text-decoration: none;
 }
 
-/* .blog-but-hov:visited{
-    color: inherit;
+a {
     text-decoration: none;
 }
 
 .blog-post-icon:visited{
     color: inherit;
-    text-decoration: none;
-} */
+} 
 
 
 
@@ -240,11 +237,12 @@ a:visited {
     flex-direction: column;
     text-align: center;
     font-family: Kool Beans;
-    color:#355952
+    color:#355952;
+    height: 100vh;
 }
 
 .home-intro-box > h1 {
-    font-size: 10rem;
+    font-size: 6rem;
     justify-content:center ;
 }
 
@@ -258,17 +256,9 @@ a:visited {
 
 
 .home-intro-box > h2 {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     /* Increased to fit 3rd line on mobile */
-
-
 }
-
-/* .home-intro-box > a > img:hover {
-    border: #EAB63E solid 0.5rem;
-
-} */
-
 #avatar-link > img:hover {
     border: #EAB63E solid 0.5rem;
 
@@ -473,7 +463,6 @@ a:visited {
         font-size: 3.5rem;
         height: auto;
     }
-
     /*  Adjustments to fit under the nav bar */
 
     #career-pageheader {
@@ -491,14 +480,28 @@ a:visited {
     }
 
     #main-blog-box {
-        margin-top: 12rem;
+        margin-top: 5rem;
+    }
+
+    /* .home-intro-box{
+        margin-top: 6rem;
+    } */
 
     /* #blog-box-head-text {
         font-size: 1em; */
+
+    .burger-a-link:hover {
+        border: #EAB63E solid 0.3rem;
+        border-radius: 3rem;
+        color: #355952;
+        background-color: #EAB63E;
+
 }
+
 }
 
 @media screen and (min-width: 700px) {
+
 
     .about-box {
         margin-top: 0;
