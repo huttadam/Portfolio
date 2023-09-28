@@ -435,18 +435,19 @@ a {
 
 @media screen and (min-width: 500px) {
 
-    /* removes the burg icon */
-
-    .burger-menu-icon {
-        display: none;
-    }
     /* increases size of house link */
 
     #home-icon {
         width: 5rem;
         height: 5rem;
-    } 
-    
+    }
+
+    /* removes the burg icon */
+
+    .burger-menu-icon {
+        display: none;
+    }
+
     /* shows the navigation tools and styles inside them */
 
     .burger-nav-menu {
