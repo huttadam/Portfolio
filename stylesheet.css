@@ -1,4 +1,4 @@
-/* BELOW IS FOR MOBILE - DESIGNED for 390 x 844 */
+
 
 * {
     margin: 0;
@@ -20,7 +20,7 @@ body{
     justify-content: center;
     text-align: center;
     background-attachment: fixed;
-    background-image: url("/src/img/page-photos/bg/background.png");
+    background-image: url("/src/img/page-photos/bg/background.png"); 
 }
 
 .top-bar{
@@ -68,12 +68,8 @@ body{
     margin-top: 0.5rem;
     justify-content: center;
     align-items: center;
-    /* flex-grow: 1;  CHECK PURPOSE AFTER MQ*/
 }
 
-#logo-box > a {
-    margin: 0 1rem;
-}
 
  #logo-box > a > img{
     max-height:3.5rem;
@@ -133,7 +129,6 @@ body{
 
 
 .blog-post-icon {
-
     width: 18rem;
     align-items: center;
     padding: 0.75rem;
@@ -185,7 +180,7 @@ body{
 .blog-but{
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: FugazOne,sans serif;
 
 }
@@ -212,7 +207,6 @@ body{
     color: #355952;
 }
 
-
 a:visited {
     color: inherit;
 }
@@ -220,12 +214,6 @@ a:visited {
 a {
     text-decoration: none;
 }
-
-.blog-post-icon:visited{
-    color: inherit;
-} 
-
-
 
 .burger-nav-li:hover {
     color: #EAB63E;
@@ -235,6 +223,11 @@ a {
 
 /* HOME PAGE */
 
+.lock-screen {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
 
 
 .home-intro-box {
@@ -263,7 +256,7 @@ a {
 
 .home-intro-box > h2 {
     font-size: 1.3rem;
-    /* Increased to fit 3rd line on mobile */
+
 }
 #avatar-link > img:hover {
     border: #EAB63E solid 0.5rem;
@@ -283,8 +276,7 @@ a {
     height: auto;
     color: #355952;
     font-family: FugazOne,sans serif;
-    font-size: 5rem;
-    margin-top: 1rem;
+    font-size: 3rem;
 }
 
 
@@ -349,7 +341,6 @@ a {
 
 
 /* CAREER PAGE */
-
 
 #career-pageheader {
     display: flex;
@@ -428,112 +419,50 @@ a {
 }
 
 
-.lock-screen {
-    display: flex;
-    flex-direction: column;
-    max-height: 100vh;
-}
-
-
-
-
-
-
 @media screen and (min-width: 500px) {
 
-    #home-icon {
-        width: 5rem;
-        height: 5rem;
-    }
-
-    /* removes the burg icon */
     .burger-menu-icon {
         display: none;
     }
+
     .burger-nav-menu{
-        display: none;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 100%;
+        position: static;
+        color: inherit;
+        background-image: none;
     }
 
     .top-bar{
-        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
     }
-    .burger-nav-menu{
-        display: none;
-    }
-
     .burger-a-link {
         display: inline;
-        
     }
 
     .top-bar > li{
-        border: black solid 3rem;
+        border:black solid 3rem;
 
     }
 
-
-
-
-
-    
-
-
-
-    /* shows the navigation tools and styles inside them */
-
-    /* .burger-nav-menu {
-        display: flex;
-        width:100%;
-        background-color: #355952;
-        background-image: none;
-        color: #EAB63E;
-        padding-bottom: 1rem 0rem;
-        padding:1rem 0rem;
-    }
-    .burger-nav-li {
-        font-family: FugazOne,sans serif;
-        font-size: 3.5rem;
-        height: auto;
-    } */
-    /*  Adjustments to fit under the nav bar */
-
-    #career-pageheader {
-        margin-top: 6rem;
-    }
-    #about-pageheader {
-        margin-top: 6rem;
-    }
-    #logo-box {
-        width:5rem;
-        height:5rem;
-    }
-    .blog-box-single-page {
-        margin-top: 7rem;
     }
 
-    #main-blog-box {
-        margin-top: 5rem;
-    }
-
-    /* .home-intro-box{
-        margin-top: 6rem;
-    } */
-
-    /* #blog-box-head-text {
-        font-size: 1em; */
-
-    /* .burger-a-link:hover {
+    .burger-a-link:hover {
         border: #EAB63E solid 0.3rem;
         border-radius: 3rem;
         color: #355952;
         background-color: #EAB63E;
 
-} */
-
 }
 
-@media screen and (min-width: 700px) {
 
+@media screen and (min-width: 700px) {
 
     .about-box {
         margin-top: 0;
@@ -637,7 +566,7 @@ a {
 
     .blog-box-single-page {
         width: 50%;
-        /* max-width: 500px; */
+        max-width: 500px;
         height: auto; 
         margin: 7rem auto;
 
