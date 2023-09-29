@@ -207,11 +207,11 @@ body{
 }
 
 a:visited {
-    color: inherit;
+    color:inherit;
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .burger-nav-li:hover {
@@ -247,14 +247,15 @@ a {
 .home-intro-box >  a > img {
     border: #355952 solid 0.5rem;
     border-radius: 40vw;
-    width: 60%;
+    width: 50%;
     height:auto;
     margin-bottom: 0.5rem;
 }
 
 
 .home-intro-box > h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    
 
 }
 #avatar-link > img:hover {
@@ -431,7 +432,7 @@ a {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        max-width: 90%;
+        max-width: 95%;
         position: static;
         color: inherit;
         background-image: none;
@@ -458,17 +459,17 @@ a {
 
     /* Adjusts for the avatar,font position */
 
-    .home-intro-box{
-        /* margin: 0; */
+    /* .home-intro-box{
+        margin: 0;
         justify-content: center;
-    }
+    } */
 
     .home-intro-box > h1 {
         font-size:8rem;}
 
     .home-intro-box > h2 {
-        margin-top: 2rem;
-        font-size: 2rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
     }
     
     
