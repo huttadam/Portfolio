@@ -7,8 +7,8 @@
 }
 
 @font-face {
-    font-family: kool-beans;
-    src:url(/assets/kool-beans.regular.ttf);
+    font-family: FugazOne;
+    src:url(/assets/FugazOne-Regular.ttf);
    }
 
 
@@ -20,7 +20,7 @@ body{
     justify-content: center;
     text-align: center;
     background-attachment: fixed;
-    background-image: url("background.png");
+    background-image: url("/src/img/page-photos/bg/background.png");
 }
 
 .top-bar{
@@ -32,7 +32,7 @@ body{
     align-items: center;
     font-size: 3.5rem;
     color: #EAB63E;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
 
 }
 
@@ -58,7 +58,7 @@ body{
     align-items:center;
     font-size: 2rem;
     color: #EAB63E;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
 
 }
 
@@ -97,7 +97,7 @@ body{
     color: #355952;
     list-style-type: none;
     background-attachment: fixed;
-    background-image: url(background.png);
+    background-image: url(/src/img/page-photos/bg/background.png);
 }
 
 .burger-nav-menu.active{
@@ -106,7 +106,7 @@ body{
 
 .burger-nav-li {
     text-align: center;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     font-size: 3.5rem;
     height: 10vh;
     width: 100vw;
@@ -126,7 +126,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     color: #355952;
     font-size: 3rem;
 }
@@ -156,7 +156,7 @@ body{
     background-color: #355952;
     width: auto;
     height: auto;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     border-radius: 1rem;
     color: #EAB63E;
     margin: 1rem;
@@ -186,7 +186,7 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
 
 }
 .blog-but > a {
@@ -242,7 +242,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     color:#355952;
     height: 100vh;
 }
@@ -282,7 +282,7 @@ a {
     width: auto;
     height: auto;
     color: #355952;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     font-size: 5rem;
     margin-top: 1rem;
 }
@@ -304,7 +304,7 @@ a {
 .about-box-items > h1 {
     text-align: center;
     color: #355952;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     font-size: 3.2rem;
     margin-bottom: 2vh;
 }
@@ -317,7 +317,7 @@ a {
     margin: 0rem 1rem 1rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.8vw;
-    background-image: url("background.png")
+    background-image: url("/src/img/page-photos/bg/background.png")
 }
 
 
@@ -359,7 +359,7 @@ a {
     width: auto;
     height: auto;
     color: #355952;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     font-size: 2.5rem;
     margin-top: 1rem;
 }
@@ -380,7 +380,7 @@ a {
 .career-box-items > h1{
     text-align: center;
     color: #355952;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     font-size: 3.2rem;
     margin-bottom: 2vh;
 }
@@ -395,7 +395,7 @@ a {
     align-items: center;
     border: #355952 solid 0.5rem;
     border-radius: 10vw;
-    background-image: url(background.png);
+    background-image: url(/src/img/page-photos/bg/background.png);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0rem 1rem 1rem 1rem;
     
@@ -419,7 +419,7 @@ a {
     height: auto;
     margin-bottom: 1rem;
     font-size: 2rem;
-    font-family: kool-beans, sans-serif;
+    font-family: FugazOne,sans serif;
     color: #355952;
 }
 
@@ -491,7 +491,7 @@ a {
         padding:1rem 0rem;
     }
     .burger-nav-li {
-        font-family: kool-beans, sans-serif;
+        font-family: FugazOne,sans serif;
         font-size: 3.5rem;
         height: auto;
     } */
