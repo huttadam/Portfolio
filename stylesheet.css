@@ -1,8 +1,13 @@
+
+/* Reset */
+
 * {
     margin: 0;
     padding : 0;
     box-sizing: border-box;
 }
+
+/* Font from google fonts */
 
 @font-face {
     font-family: FugazOne;
@@ -122,7 +127,7 @@ body{
     text-align: center;
     font-family: FugazOne,sans serif;
     color: #355952;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
@@ -136,7 +141,7 @@ body{
     border-radius: 2rem; ;
     background-color: #355952;
     color: #EAB63E;
-    font-size: 2rem;
+    font-size: 1.5rem;
  
 }
 
@@ -180,7 +185,7 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 1.6rem;
-    font-family: FugazOne,sans serif;
+ 
 
 }
 .blog-but > a {
@@ -192,13 +197,7 @@ body{
 
 }
 
-/* HOVER AND PSUEDO-CODE */
-    
-.blog-but-hov:hover {
-    background-color: #EAB63E;
-    color: #355952;
-    border: #355952 solid 0.3rem;
-}
+/* HOVER AND PSUEDO-CODE for blog main and blog single*/
 
 .blog-post-icon:hover{
     background-color: #EAB63E;
@@ -210,6 +209,7 @@ a:visited {
     color:inherit;
 }
 
+/* wouldnt funnction on :visited */
 a {
     text-decoration:none;
 }
@@ -236,11 +236,10 @@ a {
     text-align: center;
     font-family: FugazOne,sans serif;
     color:#355952;
-    height: 100vh;
 }
 
 .home-intro-box > h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     justify-content:center ;
 }
 
@@ -248,16 +247,13 @@ a {
     border: #355952 solid 0.5rem;
     border-radius: 40vw;
     width: 50%;
-    height:auto;
     margin-bottom: 0.5rem;
 }
 
-
 .home-intro-box > h2 {
     font-size: 1rem;
-    
-
 }
+
 #avatar-link > img:hover {
     border: #EAB63E solid 0.5rem;
 
@@ -432,7 +428,7 @@ a {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        max-width: 95%;
+        max-width: 100%;
         position: static;
         color: inherit;
         background-image: none;
@@ -451,24 +447,13 @@ a {
     /* Adjusts the home icon */
 
     #home-icon {
-        margin-left: 2rem;;
+        margin-left: 2rem;
         width:5rem;
         height:5rem;
-        margin-bottom: 2rem;
     }
 
-    /* Adjusts for the avatar,font position */
-
-    /* .home-intro-box{
-        margin: 0;
-        justify-content: center;
-    } */
-
-    .home-intro-box > h1 {
-        font-size:8rem;}
-
     .home-intro-box > h2 {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         font-size: 1.2rem;
     }
     
@@ -621,6 +606,12 @@ a {
 #bg {
     padding:0 2rem;
 }
+.main-intro-box > h1{
+    margin-bottom: 2rem;
+
+}
+
+
 }
 
 
