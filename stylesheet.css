@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: kool-beans;
+    src:url(/assets/kool-beans.regular.ttf);
+   }
+
+
 /* GENERAL STYLING */
 
 body{
@@ -26,7 +32,7 @@ body{
     align-items: center;
     font-size: 3.5rem;
     color: #EAB63E;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
 
 }
 
@@ -52,7 +58,7 @@ body{
     align-items:center;
     font-size: 2rem;
     color: #EAB63E;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
 
 }
 
@@ -100,7 +106,7 @@ body{
 
 .burger-nav-li {
     text-align: center;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     font-size: 3.5rem;
     height: 10vh;
     width: 100vw;
@@ -120,7 +126,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     color: #355952;
     font-size: 3rem;
 }
@@ -150,7 +156,7 @@ body{
     background-color: #355952;
     width: auto;
     height: auto;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     border-radius: 1rem;
     color: #EAB63E;
     margin: 1rem;
@@ -180,7 +186,7 @@ body{
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
 
 }
 .blog-but > a {
@@ -236,7 +242,7 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     color:#355952;
     height: 100vh;
 }
@@ -276,7 +282,7 @@ a {
     width: auto;
     height: auto;
     color: #355952;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     font-size: 5rem;
     margin-top: 1rem;
 }
@@ -298,7 +304,7 @@ a {
 .about-box-items > h1 {
     text-align: center;
     color: #355952;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     font-size: 3.2rem;
     margin-bottom: 2vh;
 }
@@ -353,7 +359,7 @@ a {
     width: auto;
     height: auto;
     color: #355952;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     font-size: 2.5rem;
     margin-top: 1rem;
 }
@@ -374,7 +380,7 @@ a {
 .career-box-items > h1{
     text-align: center;
     color: #355952;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     font-size: 3.2rem;
     margin-bottom: 2vh;
 }
@@ -413,7 +419,7 @@ a {
     height: auto;
     margin-bottom: 1rem;
     font-size: 2rem;
-    font-family: Kool Beans;
+    font-family: kool-beans, sans-serif;
     color: #355952;
 }
 
@@ -435,22 +441,47 @@ a {
 
 @media screen and (min-width: 500px) {
 
-    /* increases size of house link */
-
     #home-icon {
         width: 5rem;
         height: 5rem;
     }
 
     /* removes the burg icon */
-
     .burger-menu-icon {
         display: none;
     }
+    .burger-nav-menu{
+        display: none;
+    }
+
+    .top-bar{
+        justify-content: space-around;
+    }
+    .burger-nav-menu{
+        display: none;
+    }
+
+    .burger-a-link {
+        display: inline;
+        
+    }
+
+    .top-bar > li{
+        border: black solid 3rem;
+
+    }
+
+
+
+
+
+    
+
+
 
     /* shows the navigation tools and styles inside them */
 
-    .burger-nav-menu {
+    /* .burger-nav-menu {
         display: flex;
         width:100%;
         background-color: #355952;
@@ -460,10 +491,10 @@ a {
         padding:1rem 0rem;
     }
     .burger-nav-li {
-        font-family: Kool Beans;
+        font-family: kool-beans, sans-serif;
         font-size: 3.5rem;
         height: auto;
-    }
+    } */
     /*  Adjustments to fit under the nav bar */
 
     #career-pageheader {
@@ -491,13 +522,13 @@ a {
     /* #blog-box-head-text {
         font-size: 1em; */
 
-    .burger-a-link:hover {
+    /* .burger-a-link:hover {
         border: #EAB63E solid 0.3rem;
         border-radius: 3rem;
         color: #355952;
         background-color: #EAB63E;
 
-}
+} */
 
 }
 
