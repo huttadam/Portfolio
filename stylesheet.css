@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding : 0;
@@ -125,6 +123,7 @@ body{
     font-family: FugazOne,sans serif;
     color: #355952;
     font-size: 3rem;
+    
 }
 
 
@@ -223,7 +222,7 @@ a {
 
 /* HOME PAGE */
 
-.lock-screen {
+.wrapper {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
@@ -421,6 +420,8 @@ a {
 
 @media screen and (min-width: 500px) {
 
+    /* Hamburger gone and nav menu returns */
+
     .burger-menu-icon {
         display: none;
     }
@@ -430,7 +431,7 @@ a {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        max-width: 100%;
+        max-width: 90%;
         position: static;
         color: inherit;
         background-image: none;
@@ -446,12 +447,43 @@ a {
         display: inline;
     }
 
-    .top-bar > li{
-        border:black solid 3rem;
+    /* Adjusts the home icon */
 
+    #home-icon {
+        margin-left: 2rem;;
+        width:5rem;
+        height:5rem;
+        margin-bottom: 2rem;
     }
 
+    /* Adjusts for the avatar,font position */
+
+    .home-intro-box{
+        /* margin: 0; */
+        justify-content: center;
     }
+
+    .home-intro-box > h1 {
+        font-size:8rem;}
+
+    .home-intro-box > h2 {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    
+    
+    /*  opens the stationary screen up */
+
+    .wrapper {
+        height: 100vh;
+    }
+  
+    #logo-box > a {
+        padding: 0 3rem;
+    }
+
+}
+    
 
     .burger-a-link:hover {
         border: #EAB63E solid 0.3rem;
@@ -460,6 +492,7 @@ a {
         background-color: #EAB63E;
 
 }
+    
 
 
 @media screen and (min-width: 700px) {
@@ -492,7 +525,7 @@ a {
         padding: 2rem;
     }
 
-    #bg, #Interests {
+    #bg, #interests {
         flex-basis: 50%;
         max-width: 50%;
     }
@@ -566,7 +599,7 @@ a {
 
     .blog-box-single-page {
         width: 50%;
-        max-width: 500px;
+        max-width: 600px;
         height: auto; 
         margin: 7rem auto;
 
@@ -575,10 +608,27 @@ a {
     .blog-post-icon{
         width: 27rem;
     }
-
-
-
 }
+
+@media screen and (min-width: 970px) {
+    .career-box , .about-box{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+/* Had many issues here due to the border-radius ecoraching on the content */
+
+#bg {
+    padding:0 2rem;
+}
+}
+
+
+
+
+
+
+
+
 
 
 
