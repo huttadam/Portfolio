@@ -128,6 +128,7 @@ body{
     font-family: FugazOne,sans serif;
     color: #355952;
     font-size: 2rem;
+    height: 100vh;
     
 }
 
@@ -225,7 +226,9 @@ a {
 .wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-height: 100vh;
+    max-width: 100vw;
 }
 
 
@@ -236,6 +239,8 @@ a {
     text-align: center;
     font-family: FugazOne,sans serif;
     color:#355952;
+    justify-content:center;
+    height: 100vh;
 }
 
 .home-intro-box > h1 {
