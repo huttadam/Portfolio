@@ -128,6 +128,7 @@ body{
     color: #355952;
     font-size: 2rem;
     height: 100vh;
+    justify-content: center;
     
 }
 
@@ -168,7 +169,7 @@ body{
 }
 .blog-box-single-page > img {
     margin:1rem;
-    border:#EAB63E solid 2vw
+    border:#EAB63E solid 1rem;
 }
 .blog-box-single-page > h2 {
     font-size: 1.3rem;
@@ -573,7 +574,6 @@ a {
     #overview, #webdev{
         flex-basis: 50%;
         max-width: 50%;
-        /* max-height: 50%; */
     }
 
     #aspo {
@@ -609,10 +609,6 @@ a {
     .career-box , .about-box{
         max-width: 960px;
         margin: 0 auto;
-    }
-    
-    #bg {
-    padding:0 2rem;
     }
     .main-intro-box > h1{
     margin-bottom: 2rem;
