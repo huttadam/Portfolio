@@ -1,4 +1,3 @@
-
 /* Reset */
 
 * {
@@ -27,7 +26,7 @@ body{
 }
 
 .top-bar{
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: #355952;
     display: flex;
@@ -36,8 +35,7 @@ body{
     font-size: 3.5rem;
     color: #EAB63E;
     font-family: FugazOne,sans serif;
-    overflow: hidden;
-
+    /* overflow: hidden; */
 }
 
 #home-icon {
@@ -250,7 +248,7 @@ a {
 
 .home-intro-box >  a > img {
     border: #355952 solid 0.5rem;
-    border-radius: 40vw;
+    border-radius: 16px;
     width: 50%;
     margin-bottom: 0.5rem;
 }
@@ -283,16 +281,22 @@ a {
 
 .about-box {
     display: flex;
-    width:auto;
+    width: auto;
     height: auto;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     align-content: center;
     color: black;
     font-size: 2.5rem;
+    gap: 2rem;
+    padding: 2rem;
 }
 
+.about-box-items {
+    border: #355952 solid 0.5rem;
+    border-radius: 16px;
+}
 
 .about-box-items > h1 {
     text-align: center;
@@ -305,8 +309,7 @@ a {
 .about-box-items > p, #about-box-list , .photo-box{
     width: auto;
     padding: 1.2rem;
-    border: #355952 solid 0.5rem;
-    border-radius: 10vw;
+
     margin: 0rem 1rem 1rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.8vw;
@@ -374,7 +377,6 @@ a {
     color: #355952;
     font-family: FugazOne,sans serif;
     font-size: 3.2rem;
-    margin-bottom: 2vh;
 }
 
 .career-box-item-inner {
@@ -386,7 +388,7 @@ a {
     text-align: center;
     align-items: center;
     border: #355952 solid 0.5rem;
-    border-radius: 10vw;
+    border-radius: 16px;
     background-image: url(/src/img/page-photos/bg/background.png);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0rem 1rem 1rem 1rem;
@@ -439,12 +441,17 @@ a {
         background-image: none;
     }
 
+    .burger-nav-li {
+        height: auto;
+        width: auto;
+        margin-right:2rem;
+    }
+
     .top-bar{
-        justify-content: space-evenly;
+        justify-content: center;
         flex-direction: row;
         display: flex;
         align-items: center;
-
     }
     .burger-a-link {
         display: inline;
@@ -453,9 +460,13 @@ a {
     /* Adjusts the home icon */
 
     #home-icon {
-        margin-right: 12rem;
+        /* margin-right: 12rem; */
+        /* padding-right: 2rem; */
         width:5rem;
         height:5rem;
+    }
+    ul {
+        margin-left:5rem;
     }
 
     .home-intro-box > h2 {
@@ -491,20 +502,17 @@ a {
 
     .about-box {
         margin-top: 0;
-        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-between; 
+        justify-content: space-between;
         max-width: 100%;
-        padding: 2 rem;
+        padding: 2rem;
         max-height: 100%;
     }
 
     .about-box-items{
-        flex-basis: 48%;
-        max-width: 48%;
-        padding: 1 rem;
         text-align: center;
+        flex:1;
     }
 
     .about-box-items h1 {
@@ -518,7 +526,6 @@ a {
     }
 
     #bg, #interests {
-        flex-basis: 50%;
         max-width: 50%;
     }
 
@@ -566,6 +573,7 @@ a {
     #overview, #webdev{
         flex-basis: 50%;
         max-width: 50%;
+        /* max-height: 50%; */
     }
 
     #aspo {
@@ -587,8 +595,6 @@ a {
         margin-top:1rem;
     }
 
-
-
     .blog-box-single-page {
         width: 50%;
         max-width: 600px;
@@ -600,24 +606,18 @@ a {
     .blog-post-icon{
         width: 27rem;
     }
-}
-
-@media screen and (min-width: 970px) {
     .career-box , .about-box{
         max-width: 960px;
         margin: 0 auto;
     }
-/* Had many issues here due to the border-radius ecoraching on the content */
-
-#bg {
+    
+    #bg {
     padding:0 2rem;
-}
-.main-intro-box > h1{
+    }
+    .main-intro-box > h1{
     margin-bottom: 2rem;
-
-}
-
-
+    
+    }
 }
 
 
