@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog# 5</title>
+    <link rel="stylesheet" href="/src/stylesheet.css">
+</head>
+<body> 
+    <header class="top-bar">
+
+        <a href="/src/index.html"> <img id="home-icon" src="/src/img/logo/house1.png" alt="home-icon"> </a>
+        
+        
+    
+        <ul class="burger-nav-menu">
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="/src/about.html">About</a></li>
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="/src/blog.html"> Blogs</a></li>
+            <li class="burger-nav-li">
+                <a class="burger-a-link" href="/src/career.html">Career</a></li>
+        </ul>
+
+        <img class="burger-menu-icon"src="/src/img/logo/burger1.png">
+
+
+    </header> 
+
+
+    <main class="blog-box-single-page">
+        <h1> Blog# 5</h1>
+        <img src="/src/img/blog/mountain.jpg" alt="yama">
+        <h2> posted September 16th by Jake the Snake: </h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nesciunt enim eligendi debitis suscipit repellendus assumenda, soluta distinctio mollitia. Hic exercitationem qui placeat repudiandae aperiam sit voluptatum error maiores quo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, obcaecati veniam quam quae quidem eum odio error adipisci aspernatur. Perferendis, dolorem ad quidem exercitationem nam pariatur! Ipsum nostrum modi perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem minus doloribus molestias voluptate provident, iure numquam illum facilis repellat, officiis quis dolorem iste, vero a consequatur corporis excepturi cum!loremlorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, beatae. Distinctio, pariatur eligendi molestiae harum voluptas cupiditate possimus odio ullam assumenda rem consectetur amet ipsam dolore necessitatibus incidunt tenetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore optio vero debitis laboriosam obcaecati quaerat, aliquam accusamus excepturi asperiores qui fuga? Laborum expedita repellat corporis quam illum minus vero eaque possimus similique, natus culpa nihil nisi! Quos nobis maxime magnam similique velit ipsam ullam quasi, consectetur quisquam cumque unde nam vitae asperiores aliquid quo in dolores placeat animi sapiente optio, illum porro molestias omnis! Labore culpa in nihil voluptate facere nisi a placeat eligendi, ipsum aperiam odio laborum repellendus nobis ab praesentium mollitia error minus ducimus ipsa. Deleniti voluptatum quibusdam ad, asperiores nostrum quaerat dicta excepturi fugit. Eligendi consequatur non saepe adipisci voluptates, quo neque ut? Nisi nostrum ut sint nam ea officiis assumenda, laboriosam mollitia quaerat a repellat adipisci enim temporibus, eligendi vel corrupti dolore sequi perspiciatis facilis alias eaque amet, quia iste! Autem quae veritatis nulla placeat excepturi. Molestias, dicta earum doloribus ducimus recusandae rerum incidunt iusto ab praesentium expedita eius! Ratione nobis non nulla recusandae, dolor ipsa necessitatibus earum facere laboriosam error tempora fugit porro esse amet accusantium? Delectus ratione, accusantium asperiores, placeat libero quibusdam facere minus culpa alias accusamus quo dicta earum soluta nihil totam blanditiis! Tempore autem quas voluptate in voluptates eligendi aperiam itaque ut! Vel ducimus deleniti quasi ratione a placeat numquam dolor totam necessitatibus tempore nostrum, repellendus quod at culpa maiores assumenda veritatis accusamus repellat, ad quas velit aliquam porro similique! Suscipit est aperiam fuga, velit atque impedit obcaecati doloribus sit facilis omnis, itaque nesciunt, natus culpa aliquam repellat dolore? Dolorem aut blanditiis ducimus maiores perspiciatis reprehenderit soluta sit dolorum. Illo, delectus reiciendis aut dicta fugit harum exercitationem! Ipsum consequuntur quas adipisci dicta veniam in quaerat minus facilis fuga minima molestiae itaque dignissimos, illo qui natus voluptatibus aut voluptatem obcaecati ab sit cupiditate aperiam quae libero quibusdam? Cum fugit laborum quas enim praesentium!
+        </p>
+        <nav class="blog-but">
+            <a href="/src/4-blog.html"class="blog-but-hov" type="button">Previous</button></a>
+            <a href="/src/1-blog.html"class="blog-but-hov"  type="button"> Next</button></a> 
+        </nav> 
+    </main>
+
+        <footer class="bottom-bar">   
+        <div id = "logo-box">  
+            <a href="mailto:huttjamesadam@gmail.com"> <img src="/src/img/logo/email1.png" alt="email-logo"> </a>
+            <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="/src/img/logo/linked1.png" alt="linkedin-logo"> </a>
+            <a href="https://github.com/huttadam?tab=repositories"> <img src="src/img/logo/git1.png" alt="git-logo"> </a>
+        </div>
+        <p id="copyright"> Adam Hutt 2023©</p>
+
+    </footer>
+
+    <script>
+    const burgMenuIcon = document.querySelector(".burger-menu-icon");
+    const burgNavMenu = document.querySelector(".burger-nav-menu");
+
+    burgMenuIcon.addEventListener("click",openMobileScreen)
+
+    function openMobileScreen(){
+    burgMenuIcon.classList.toggle("active");
+    burgNavMenu.classList.toggle("active");
+    }
+    const aLink = document.querySelectorAll(".burger-a-link");
+
+    aLink.forEach((n) => n.addEventListener("click", closeMobileScreen));
+
+    function closeMobileScreen(){
+        burgMenuIcon.classList.remove("active");
+        burgNavMenu.classList.remove("active");
+    }
+    </script>
+
+     
+</body>
+</html>

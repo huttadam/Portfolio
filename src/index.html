@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/src/stylesheet.css">
+</head>
+<body>
+    <div class="wrapper">
+            <header class="top-bar">
+                    <a href="/src/index.html"> <img id="home-icon" src="/src/img/logo/house1.png" alt="home-icon"> </a>
+                    
+                
+                    <ul class="burger-nav-menu">
+                        <li class="burger-nav-li">
+                            <a class="burger-a-link" href="/src/about.html">About</a></li>
+                        <li class="burger-nav-li">
+                            <a class="burger-a-link" href="/src/blog.html"> Blogs</a></li>
+                        <li class="burger-nav-li">
+                            <a class="burger-a-link" href="/src/career.html">Career</a></li>
+                    </ul>
+
+                    <img class="burger-menu-icon"src="/src/img/logo/burger1.png">
+
+            </header>
+            <main class="home-intro-box">
+                <h1>Hello,</h1>
+                <a id="avatar-link" href="/src/about.html">
+                    <img src="/src/img/page-photos/avatar/avatar1.png" alt="profile-pic"></a>
+                <h2> My name is Adam Hutt <br>  アダム　ハット <br> Junior Full-Stack Web Developer <br>Based in Tokyo, Japan  </h2>
+                </main>
+
+        <footer class="bottom-bar">   
+            <div id = "logo-box">  
+                <a href="mailto:huttjamesadam@gmail.com"> <img src="/src/img/logo/email1.png" alt="email-logo"> </a>
+                <a href="https://www.linkedin.com/in/adam-hutt-627093293/"> <img src="/src/img/logo/linked1.png" alt="linkedin-logo"> </a>
+                <a href="https://github.com/huttadam?tab=repositories"> <img src="src/img/logo/git1.png" alt="git-logo"> </a>
+            </div>
+            <p id="copyright"> Adam Hutt 2023©</p>
+
+        </footer>
+
+        <script>
+        const burgMenuIcon = document.querySelector(".burger-menu-icon");
+        const burgNavMenu = document.querySelector(".burger-nav-menu");
+
+        burgMenuIcon.addEventListener("click",openMobileScreen)
+
+        function openMobileScreen(){
+        burgMenuIcon.classList.toggle("active");
+        burgNavMenu.classList.toggle("active");
+        }
+        const aLink = document.querySelectorAll(".burger-a-link");
+
+        aLink.forEach((n) => n.addEventListener("click", closeMobileScreen));
+
+        function closeMobileScreen(){
+            burgMenuIcon.classList.remove("active");
+            burgNavMenu.classList.remove("active");
+        }
+        </script>
+    </div> 
+     
+</body>
+</html>

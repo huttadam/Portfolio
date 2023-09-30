@@ -3,15 +3,15 @@
 
 ### Author:  Adam Hutt
 
-[Published Portfolio Website]()
+[Published Portfolio Website](https://adamhuttportfolio.vercel.app/)
 
 [Github Repository](https://github.com/huttadam/Portfolio)
 
-[Presentation](https://youtu.be/K49xtwHPI8E)
+[Presentation] (https://youtu.be/YdpY71FpZ_Y)
 
 ## Purpose of Website
 
-The purpose of this website is to act as a showcase and introduction of myself.  Covering my personality, my career and desire to join the industry. As well showcase all my information, as importantly I want the design choices, page layout and web-developing techniques used in the portoflio to help attract potential employers.
+The purpose of this website is to act as a showcase and introduction of myself.  Covering my personality, my career and desire to join the industry. As importantly, as my introduction, I want to show the design choices, page layout and web-developing techniques used in the portoflio to help attract potential employers.
 
 ## Functionality / Features
 
@@ -19,7 +19,7 @@ The purpose of this website is to act as a showcase and introduction of myself. 
 
 ## Sitemap
 
-![Sitemap](/docs/Sitemap.png "Sitemap")
+![Sitemap](/src/docs/sitemap-ah.png "Sitemap")
 
 * There is a *logo* on the top right corner of every webpage that links to 'Home' (index.html)
 * The *navigation bar* on the top left corner of every webpage leads to each of the blue boxes
