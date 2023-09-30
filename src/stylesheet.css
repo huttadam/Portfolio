@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: FugazOne;
-    src:url(/src/assets/FugazOne-Regular.ttf);
+    src:url(/assets/FugazOne-Regular.ttf);
    }
 
 
@@ -22,7 +22,7 @@ body{
     justify-content: center;
     text-align: center;
     background-attachment: fixed;
-    background-image: url("/src/img/page-photos/bg/background.png"); 
+    background-image: url("/img/page-photos/bg/background.png"); 
 }
 
 .top-bar{
@@ -94,7 +94,7 @@ body{
     color: #355952;
     list-style-type: none;
     background-attachment: fixed;
-    background-image: url(/src/img/page-photos/bg/background.png);
+    background-image: url(/img/page-photos/bg/background.png);
 }
 
 .burger-nav-menu.active{
@@ -313,7 +313,7 @@ a {
     margin: 0rem 1rem 1rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.8vw;
-    background-image: url("/src/img/page-photos/bg/background.png")
+    background-image: url("/img/page-photos/bg/background.png")
 }
 
 
@@ -389,7 +389,7 @@ a {
     align-items: center;
     border: #355952 solid 0.5rem;
     border-radius: 16px;
-    background-image: url(/src/img/page-photos/bg/background.png);
+    background-image: url(/img/page-photos/bg/background.png);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0rem 1rem 1rem 1rem;
     

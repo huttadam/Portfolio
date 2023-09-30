@@ -19,7 +19,7 @@ The purpose of this website is to act as a showcase and introduction of myself. 
 
 ## Sitemap
 
-![Sitemap](/src/docs/sitemap-ah.png "Sitemap")
+![Sitemap](/docs/sitemap-ah.png "Sitemap")
 
 * There is a *logo* on the top right corner of every webpage that links to 'Home' (index.html)
 * The *navigation bar* on the top left corner of every webpage leads to each of the blue boxes
