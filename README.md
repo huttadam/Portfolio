@@ -11,11 +11,10 @@
 
 ## Purpose of Website
 
-The purpose of this website is to act as a showcase and introduction of myself.  Covering my personality, my career and desire to join the industry. As importantly, as my introduction, I want to show the design choices, page layout and web-developing techniques used in the portoflio to help attract potential employers. This 
+The purpose of this website is to act as a showcase and introduction of myself, covering my personality, my career and desire to join the industry. As importantly, as my introduction, I want to show the design choices, page layout and web-developing techniques used in the portoflio to help attract potential employers. I also hope this website to be a building-block which I can improve on.
 
 ## Functionality / Features
-
-* A simple and clear minimiast design for user to clearly see all information and be easily readable 
+* Easy to navigate through regardlesss of the device. 
 
 ## Sitemap
 
