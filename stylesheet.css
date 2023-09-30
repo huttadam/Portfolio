@@ -5,6 +5,7 @@
     margin: 0;
     padding : 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* Font from google fonts */
@@ -106,7 +107,7 @@ body{
 .burger-nav-li {
     text-align: center;
     font-family: FugazOne,sans serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     height: 10vh;
     width: 100vw;
     border-bottom: 0.5rem solid #355952;
@@ -228,7 +229,6 @@ a {
     flex-direction: column;
     justify-content: center;
     max-height: 100vh;
-    max-width: 100vw;
 }
 
 
@@ -444,6 +444,7 @@ a {
         flex-direction: row;
         display: flex;
         align-items: center;
+
     }
     .burger-a-link {
         display: inline;
@@ -452,7 +453,7 @@ a {
     /* Adjusts the home icon */
 
     #home-icon {
-        margin-left: 5rem;
+        margin-right: 12rem;
         width:5rem;
         height:5rem;
     }
