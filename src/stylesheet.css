@@ -284,7 +284,6 @@ a {
     width: auto;
     height: auto;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     align-content: center;
     color: black;
@@ -460,8 +459,6 @@ a {
     /* Adjusts the home icon */
 
     #home-icon {
-        /* margin-right: 12rem; */
-        /* padding-right: 2rem; */
         width:5rem;
         height:5rem;
     }
@@ -487,7 +484,6 @@ a {
 
 }
     
-
     .burger-a-link:hover {
         border: #EAB63E solid 0.3rem;
         border-radius: 3rem;
