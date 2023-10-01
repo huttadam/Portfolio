@@ -75,22 +75,53 @@ The purpose of this website is to act as a showcase and introduction of myself, 
 
 ## Screenshots
 
+### Home/Index
+Mobile:
+![Home page mobile](docs/index-mob.png "Home page mobile")
+Tablet:
+![Home Page Tablet](docs/index-tab.png "Home Page Tablet")
+Desktop:
+![Home Page Desktop](docs/index-desk.png "Home Page Desktop")
 
 ### About
+Mobile:
+![About page mobile](docs/about-mob.png "About page mobile")
+Tablet:
+![About Page Tablet](docs/about-tab.png "About Page Tablet")
+Desktop:
+![About Page Desktop](docs/about-desk-FULL.png "About Page Desktop")
 
 
-### Home/Index
-
+### Career
+Mobile:
+![career mobile](docs/career-mob.png "career mobile")
+Tablet:
+![career tablet](docs/career-tab.png "career Tablet")
+Desktop:
+![career desktop](docs/career-desk-full.png "career Desktop")
 
 
 ### Blog-Main
+Mobile:
+![Blog-main page mobile](docs/blog-main-mob.png "Blog-main mobile")
+Tablet:
+![Blog-main Tablet](docs/blog-main-tab.png "Blog-main Tablet")
+Desktop:
+![Blog-main Desktop](docs/blog-main-desk.png "Blog-main Desktop")
 
 
 ### Blog-Post Example
+Mobile:
+![Blog-post example mobile](docs/blog5-mob.png "Blog-post mobile")
+Tablet:
+![Blog-post example tablet](docs/blog5-tab.png "Blog-tablet Tablet")
+Desktop:
+![Blog-post example desktop](docs/blog5-desk-full.png "Blog-main Desktop")
+
 
 
 ## Target Audience
-Intrested businesses or people looking for people looking to collobrate 
+Businesses or people seeking employers, people looking to colloborate with or anyone intrested in my background. 
 
 
 ## Tech Stack
@@ -99,6 +130,6 @@ Intrested businesses or people looking for people looking to collobrate
 * Sitemap: Freeform - Apple's Built-in whiteboarding application
 * Web Development Semantic HTML and CSS
 * Image optimisation: [Image Optimizer](http://www.imageoptimizer.net/Home.aspx)
-* Logo: [SVG Repo](https://www.svgrepo.com/)
+* Logos/Icons: [SVG Repo](https://www.svgrepo.com/)
 * Deployment: [Vercel](https://vercel.com/)
 * Slide deck: Keynote - Apple's Built-in slide deck app
