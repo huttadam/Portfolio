@@ -1,15 +1,14 @@
-# Portfolio
 # T1A2 Portfolio Assignment
 
 ### Adam Hutt
 
 ### Student Number: 14793
 
-[Published Portfolio Website](https://adamhuttportfolio.vercel.app/)
+[Deployed Portfolio Website](https://adamhuttportfolio.vercel.app/)
 
 [Github Repository](https://github.com/huttadam/Portfolio)
 
-[Presentation] (https://youtu.be/YdpY71FpZ_Y)
+[Presentation](https://youtu.be/YdpY71FpZ_Y)
 
 ## Purpose of Website
 
@@ -98,7 +97,7 @@ Mobile:
 Tablet:
 ![career tablet](docs/career-tab.png "career Tablet")
 Desktop:
-![career desktop](docs/career-desk-full.png "career Desktop")
+![career desktop](docs/career-desk-FULL.png "career Desktop")
 
 
 ### Blog-Main
@@ -116,7 +115,7 @@ Mobile:
 Tablet:
 ![Blog-post example tablet](docs/blog5-tab.png "Blog-tablet Tablet")
 Desktop:
-![Blog-post example desktop](docs/blog5-desk-full.png "Blog-main Desktop")
+![Blog-post example desktop](docs/blog5-desk-FULL.png "Blog-main Desktop")
 
 
 
