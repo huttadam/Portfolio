@@ -204,7 +204,7 @@ body{
     color: #355952;
 }
 
-.blog-but:hover{
+.blog-but > a:hover{
     background-color: #EAB63E;
     border: #355952 solid 0.3rem;
     color: #355952; 
