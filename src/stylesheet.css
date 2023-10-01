@@ -442,7 +442,7 @@ a {
 
 @media screen and (min-width: 500px) {
 
-    /* Hamburger gone and nav menu returns */
+    /* Hamburger gone and the nav menu returns */
 
     .burger-menu-icon {
         display: none;
