@@ -209,7 +209,7 @@ a:visited {
     color:inherit;
 }
 
-/* wouldnt function on :visited */
+/* Overide: wouldnt function on a:visited */
 a {
     text-decoration:none;
 }

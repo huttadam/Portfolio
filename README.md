@@ -18,22 +18,33 @@ The purpose of this website is to act as a showcase and introduction of myself, 
 ## Functionality / Features
 <h3>Global Features</h3>
 
-* Media Queries are styled into the CSS so availability to access the site and browse on any device;  mobile, tablet or desktop. CSS styling is responsive through-out the site. **
+* Media Queries are styled into the CSS so availability to access the site and browse on any device;  mobile, tablet or desktop. CSS styling is responsive through-out the site. 
 
-* HTML code is written semantically, consistently throughtout the html files to ensure that it is easy to maintain, looks organized and easy to read for potential modifications from an outside source as well as being accessible for all users. **
+* HTML code is written semantically, consistently throughtout the html files to ensure that it is easy to maintain, looks organized and easy to read for potential modifications from an outside source as well as being accessible for all users. 
 
-* Naviagtion thoughtout the page is accessable and functional, done with utilization of links to other pages on a navigation/header bar for tablet and a drop-down/hamburger menu for mobile device.**
+*  Combined Header/Naviagtion tag thoughtout the pages is accessable and functional, done with utilization of links to other pages on a navigation/header bar for tablet and a drop-down/hamburger menu for mobile device.
 
-* The site has a simple, minimalist design that uses three primary colors, an easily readable font and lighter-colored background so darker font colours used, stand out against the background, increading visibility for the user.  The theme is kept the same to maintain a level of conconsistentcy that shows the user a certain brand and that page each page is related to another. **
+* The site has a simple, minimalist design that uses three primary colors, an easily readable font and lighter-colored background so darker font colours used, stand out against the background, increading visibility for the user.  The theme is kept the same to maintain a level of conconsistentcy that shows the user a certain brand and that page each page is related to another. 
 
-* External links are listed on a footer page for users to gain further access and information regarding myself, skills that could assist in the hiring process. In addition to these links at the bottom of every page, my resume and links to  additional web delvelopment work have been provided. **
+* External links are listed on a footer for users to gain further access and information regarding myself, skills that could assist in the hiring process. These links are an email prompt , (to email-me directly), a link to my linked in account and a link to my Github profile page.
 
-* Narrow reading containers on pages with a lot textual reading  pages to ensure ease and readability for the user.**
+* Narrow reading containers on pages with a lot textual reading  pages to ensure ease and readability for the user.
 
-git* Styled on a global CSS style sheet and labelled semantically so its easier for outside developers to work-on if needed. **
+* Styled on a global CSS style sheet and labelled semantically so its easier for outside developers to work-on if needed. 
 
+* Psuedo-code such as hover is used to highlight important information or navigation options.
 
+<h3>Page Functionality/Features</h3>
 
+* <b>Home/Index: </b>This page is a simple landing page which displays a greeting, an avatar and some short information about me. If hovered over the avatar the border will change colour, promoting the user to click which gives access to the about page. The header and footer are static on the page so no-scrolling is required.
+
+* <b>About: </b>The about page contains information in flexbox display that has information such has my personal background , likes and interests written in list form and a photo box that contains some photos to help get an idea of my personality and reflect a good personal image for the target audience. The photo box also is styled with overflow to get more of a quick scroll and not take up the page length with big images.
+
+* <b>Blog-Main: </b> Similiar to the home/index page, this page is also static and requires no scrolling. This page allows access to the blog posts that have been written on my website.
+
+* <b>Career: </b> The career page contains flexbox similar to the about page in three sections. Overview, Web development and Aspirations. The two most important columns are arranged side by side at the top half of the screen on larger devices in a narrow column similiar to a newspaper. This is so the user does not have to read the full width of the screen. In addition to this it the columns have an image before the text that relates to the text which makes it pop-off the page and be be aesthetically pleasing to the user.
+
+* <b>Individual Blog pages: </b> The five individial blog pages are coloured slightly different to the rest of the pages but still in keeping with the overall colour scheme and theme of the page. It shows the blog post in a flex container where all the relevant information is in the users eye-line: In addition for long blog posts are styled with overflow, so the user can scroll the text and not the entire page. Also some custom buttons are at the bottom of the blog container allowing the user to navigate to the next blog page.
 
 ## Sitemap
 
@@ -41,32 +52,41 @@ git* Styled on a global CSS style sheet and labelled semantically so its easier 
 
 ## Wireframes
 
-Index
+<b>Index:<b>
+
 ![Index page wireframe ](/docs/index-desk-wf.png "Index page wireframe")
-About
-![Bio Wireframe](/docs/wireframebio.png "Bio Wireframe")
-Blog
-![Experiences Wireframe](/docs/wireframeexp.png "Experiences Wireframe")
-Career
-![Blog Wireframe](/docs/wireframeblog.png "Blog Wireframe")
-Blog Post Example
-![Sample Blog Wireframe](/docs/wireframesampleblog.png "Sample Blog Wireframe")
+
+<b>About:<b>
+
+![About Wireframe](/docs/career:about-desk-wf.png "About Wireframe")
+
+<b>Blog:<b>
+
+![Blog-Main Wireframe](/docs/main-blog-desk-wf.png "Blog Main Wireframe")
+
+<b>Career:<b>
+
+![Career Wireframe](/docs/career:about-desk-wf.png "Career Wireframe")
+
+<b>Blog Post Example:<b>
+
+![Blog post example Wireframe](/docs/blog-ind-desk-wf.png "Blog post example Wireframe")
 
 
 ## Screenshots
 
 
-### Bio
+### About
 
 
-### Experiences
+### Home/Index
 
 
 
-### Blog
+### Blog-Main
 
 
-### Sample Blog Post
+### Blog-Post Example
 
 
 ## Target Audience
