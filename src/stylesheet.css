@@ -186,7 +186,6 @@ body{
     justify-content: space-around;
     font-size: 1.6rem;
  
-
 }
 .blog-but > a {
     border: #EAB63E solid 0.3rem;
@@ -203,6 +202,12 @@ body{
     background-color: #EAB63E;
     border: #355952 solid 0.3rem;
     color: #355952;
+}
+
+.blog-but:hover{
+    background-color: #EAB63E;
+    border: #355952 solid 0.3rem;
+    color: #355952; 
 }
 
 a:visited {
