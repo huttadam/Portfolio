@@ -439,12 +439,21 @@ a {
     max-width: 8rem;
 }
 
-.aspo > img {
+#aspo{
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#aspo > img {
     height: auto;
     width: 90%;
 }
 
-.aspo > h2{
+#aspo > h2{
     font-size: 2rem;
     font-family: FugazOne,sans serif;
     color: #355952;
