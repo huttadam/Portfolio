@@ -448,7 +448,7 @@ a {
     align-items: center;
 }
 
-#proj1 > img {
+#proj1 img {
     height: auto;
     width: 90%;
     border: #355952 solid 0.5rem;
@@ -456,7 +456,7 @@ a {
     margin: 1rem
 }
 
-#proj1 > h2{
+#proj1 h2{
     font-size: 2rem;
     font-family: FugazOne,sans serif;
     color: #355952;
