@@ -439,7 +439,7 @@ a {
     max-width: 8rem;
 }
 
-#aspo {
+#proj1 {
     width: auto;
     height: auto;
     flex-direction: column;
@@ -448,7 +448,7 @@ a {
     align-items: center;
 }
 
-#aspo > img {
+#proj1 > img {
     height: auto;
     width: 90%;
     border: #355952 solid 0.5rem;
@@ -456,7 +456,7 @@ a {
     margin: 1rem
 }
 
-#aspo > h2{
+#proj1 > h2{
     font-size: 2rem;
     font-family: FugazOne,sans serif;
     color: #355952;
