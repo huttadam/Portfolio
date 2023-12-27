@@ -439,6 +439,17 @@ a {
     max-width: 8rem;
 }
 
+.aspo > img {
+    height: auto;
+    width: 90%;
+}
+
+.aspo > h2{
+    font-size: 2rem;
+    font-family: FugazOne,sans serif;
+    color: #355952;
+}
+
 
 @media screen and (min-width: 500px) {
 
