@@ -638,6 +638,10 @@ a {
         margin-top:1rem;
     }
 
+    #webdev .career-box-item-inner{
+        height: 957.13px;
+    }
+
     .blog-box-single-page {
         width: 50%;
         max-width: 600px;
