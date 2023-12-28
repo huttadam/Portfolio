@@ -622,9 +622,26 @@ a {
     #aspo {
         flex-basis: 100%;
         max-width: 100%;
-        padding:4rem;
+        /* padding:4rem; */
     }
-    
+    #aspo .career-box-item-inner{
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+    max-width: 100%;
+    padding: 2 rem;
+    max-height: 100%;
+    }
+
+    #aspo .career-box-item-inner .proj {
+        flex-basis: calc(50% - 1rem); 
+        margin-bottom: 2rem;
+      }
+
+
+
     #aspo img {
         max-width: 400px
 
