@@ -638,6 +638,7 @@ a {
     #aspo .career-box-item-inner .proj {
         flex-basis: calc(50% - 1rem); 
         margin-bottom: 2rem;
+        max-height:420px;
       }
 
 
