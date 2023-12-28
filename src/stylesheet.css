@@ -462,6 +462,10 @@ a {
     color: #355952;
 }
 
+#aspo p {
+    padding: 2rem;
+}
+
 
 @media screen and (min-width: 500px) {
 
